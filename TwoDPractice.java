@@ -22,7 +22,9 @@ class TwoDPractice
     {
       int sum = 0;
       for(int i = 0; i < data.length; i++){
-        sum += data[i][col];
+        for(int j = 0; j < data[i].length; i++){
+          sum += data[i][col];
+        }
       }
         
         return 0;
